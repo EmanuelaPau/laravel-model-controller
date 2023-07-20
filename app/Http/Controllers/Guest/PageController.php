@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function index()
+    public function home()
     {
-        // return 'Home';
+        return view('guest.home');
     }
 }
